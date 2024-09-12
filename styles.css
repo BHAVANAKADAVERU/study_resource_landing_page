@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{
+    background-color:#1f2937;
+    height: 900px;
+    font-size: 24px;
+}
+#title{
+    padding-left:100px
+}
+.top{
+    color:aliceblue;
+    padding:20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+    gap:70px;
+    
+}
+#b1, #b2 , #b3{
+    height: 80px;
+    width: 160px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(99, 99, 243);
+    color: aliceblue;
+}
+#b1:hover{
+  border-color: aliceblue;
+}
+#b2:hover{
+    border-color: aliceblue;
+}
+#b3:hover{
+    border-color: rgb(255, 255, 255);
+}
+.content{
+    display: flex;
+    gap:300px
+    
+}
+#cc1{
+    font-weight: lighter;
+}
+.c1{
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: 100px;
+    padding:50px;
+    border-radius: 100px;
+}
+#img1{
+    width:600px;
+    height: 500px;
+    border-radius: 1000px;
+}
+/*main section styles*/
+
+.mainn #res{
+    text-align: center;
+    font-size: 80px;
+    padding-top: 50px;
+}
+.imgs{
+    display: flex;
+    margin: 100px;
+    padding-top: 30px;
+    gap:50px;
+    text-align: center;
+}
+
+#im1, #im2, #im3, #im4{
+    height: 600px;
+    width:500px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+.main2{
+    background-color: #E5E7EB;
+    height: 300PX;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+#author{
+    padding:30px;
+    padding-left: 1000px;
+    font-weight: lighter;
+}
+.main3{
+    background-color: #3882f6;
+    margin: 100px;
+    padding-top: 20px;
+    padding-left: 100px;
+    display: flex;
+    gap:100px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.signup{
+    padding: 100px;
+    align-items: center;
+}
+#sup{
+    height: 70px;
+    width: 160px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #3882f6;
+    color: aliceblue;
+}
+#sup:hover{
+    border-color: aliceblue;
+}
+footer{
+    background-color: #1f2937;
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#fp{
+    padding-top: 40px;
+    font-size: 50px;
+}
